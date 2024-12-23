@@ -1,4 +1,4 @@
-.sky {
+body {
   background-color: blue;
   animation: sky 20s linear infinite;
 }
@@ -20,6 +20,7 @@
     background-color: green;
   }
 }
+
 .trees {
   background-image: url("trees.png");
 }
@@ -27,5 +28,3 @@
 .ground {
   background-image: url("ground.jpg");
 }
-
-/*# sourceMappingURL=styles.css.map */
