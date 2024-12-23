@@ -48,6 +48,9 @@ body {
 }
 
 .puppy {
+  z-index: 1;
+  width: 50vw;
+  height: 50vw;
   animation: moveX 3.05s linear 0s infinite alternate,
     moveY 3.4s linear 0s infinite alternate;
 }
@@ -68,4 +71,11 @@ body {
   to {
     top: 280px;
   }
+}
+
+.ground {
+  z-index: -1;
+  position: absolute;
+  left: 0;
+  bottom: 0;
 }
