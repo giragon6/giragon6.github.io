@@ -47,16 +47,7 @@ body {
   }
 }
 
-.trees {
-  background-image: url("trees.png");
-}
-
-.ground {
-  background-image: url("ground.png");
-}
-
 .puppy {
-  background-image: url("puppy.png");
   animation: moveX 3.05s linear 0s infinite alternate,
     moveY 3.4s linear 0s infinite alternate;
 }
