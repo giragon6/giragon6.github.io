@@ -1,0 +1,30 @@
+.sky {
+  background-color: blue;
+  animation: sky 20s linear infinite;
+}
+
+@keyframes sky {
+  0% {
+    background-color: blue;
+  }
+  25% {
+    background-color: lightblue;
+  }
+  50% {
+    background-color: lightcyan;
+  }
+  75% {
+    background-color: lightgreen;
+  }
+  100% {
+    background-color: green;
+  }
+}
+
+.trees {
+  background-image: url("trees.png");
+}
+
+.ground {
+  background-image: url("ground.jpg");
+}
