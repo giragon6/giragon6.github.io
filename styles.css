@@ -63,7 +63,7 @@ body {
 .puppy {
   z-index: 3;
   display: block;
-  background-image: url(img/puppy.png);
+  background-image: url(/img/puppy.png);
   width: var(--ball-width);
   height: var(--ball-height);
   border-radius: 50%;
