@@ -8,6 +8,7 @@
 body {
   padding: 0;
   background: black;
+  overflow: hidden;
 }
 
 .container {
@@ -62,7 +63,6 @@ body {
   width: var(--ball-width);
   height: var(--ball-height);
   border-radius: 50%;
-  background-color: #3673cf;
   position: absolute;
   animation: moveX 10s linear 0s infinite alternate,
     moveY 12s linear 0s infinite alternate;
@@ -89,7 +89,6 @@ body {
   z-index: -1;
   position: relative;
   width: var(--width);
-  background-color: #3673cf;
   height: 20vh;
   left: 0;
   bottom: 0;
