@@ -10,17 +10,14 @@ body {
 }
 
 .container {
-  position: relative;
   width: var(--width);
   height: var(--height);
-  top: 0;
-  left: 0;
 }
 
 .aurora {
   margin: auto;
-  width: 100%;
-  height: 100%;
+  width: var(--width);
+  height: var(--height);
   opacity: 0.5;
   animation: aurora 20s linear infinite, fade 10s ease-in-out infinite;
 }
@@ -74,7 +71,7 @@ body {
     left: 0;
   }
   to {
-    left: var(--width) - var(--ball-width) / 2;
+    left: calc(var(--width) - var(--ball-width) / 2);
   }
 }
 @keyframes moveY {
@@ -82,15 +79,16 @@ body {
     top: 0;
   }
   to {
-    top: var(--height) - var(--ball-height) / 2;
+    top: calc(var(--height) - var(--ball-height) / 2);
   }
 }
 
 .ground {
   z-index: -1;
-  position: absolute;
+  position: relative;
   width: var(--width);
-  height: 10vh;
+  background-color: #3673cf;
+  height: 20vh;
   left: 0;
   bottom: 0;
 }
