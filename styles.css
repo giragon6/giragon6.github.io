@@ -71,7 +71,7 @@ body {
     left: 0;
   }
   to {
-    left: calc(var(--width) - var(--ball-width) / 2);
+    left: calc(var(--width) - var(--ball-width));
   }
 }
 @keyframes moveY {
@@ -79,7 +79,7 @@ body {
     top: 0;
   }
   to {
-    top: calc(var(--height) - var(--ball-height) / 2);
+    top: calc(var(--height) - var(--ball-height));
   }
 }
 
@@ -93,7 +93,7 @@ body {
   bottom: 0;
 }
 
-.tree {
+.trees {
   z-index: -2;
   position: absolute;
   width: var(--width);
