@@ -70,8 +70,7 @@ body {
   height: var(--ball-height);
   border-radius: 50%;
   position: absolute;
-  animation: moveX 10s linear 0s infinite alternate,
-    moveY 12s linear 0s infinite alternate;
+  animation: moveX 10s linear 0s infinite alternate, moveY 12s linear 0s infinite alternate;
 }
 
 @keyframes moveX {
