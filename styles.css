@@ -64,7 +64,6 @@ body {
   z-index: 3;
   display: block;
   background-image: url("puppy.png");
-  background-color: lightblue;
   width: var(--ball-width);
   height: var(--ball-height);
   border-radius: 50%;
@@ -91,7 +90,7 @@ body {
 }
 
 .ground {
-  z-index: 1;
+  z-index: 2;
   position: absolute;
   width: var(--width);
   height: 20vh;
@@ -100,7 +99,7 @@ body {
 }
 
 .trees {
-  z-index: 2;
+  z-index: 1;
   position: absolute;
   width: var(--width);
   height: 40vh;
