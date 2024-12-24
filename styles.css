@@ -11,12 +11,6 @@ body {
   overflow: hidden;
 }
 
-.container {
-  padding: 0;
-  width: var(--width);
-  height: var(--height);
-}
-
 .aurora {
   position: absolute;
   margin: auto;
@@ -61,6 +55,8 @@ body {
 
 .puppy {
   display: block;
+  background-image: url("puppy.png");
+  background-color: lightblue;
   width: var(--ball-width);
   height: var(--ball-height);
   border-radius: 50%;
@@ -88,6 +84,7 @@ body {
 
 .ground {
   z-index: 1;
+  background: blue;
   position: absolute;
   width: var(--width);
   height: 20vh;
@@ -97,9 +94,34 @@ body {
 
 .trees {
   z-index: 2;
+  background: white;
   position: absolute;
   width: var(--width);
-  height: 20vh;
+  height: 30vh;
   left: 0;
   bottom: 20vh;
+}
+
+.rainbow {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 16px;
+    font-family: monospace;
+    letter-spacing: 5px;
+    background: linear-gradient(to right, #6666ff, #0099ff , #00ff00, #ff3399, #6666ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: rainbow_animation 6s ease-in-out infinite;
+    background-size: 400% 100%;
+}
+
+@keyframes rainbow_animation {
+    0%,100% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 100% 0;
+    }
 }
