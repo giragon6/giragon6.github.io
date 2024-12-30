@@ -39,12 +39,12 @@ body {
   }
 
   li::before {
-    content: '❄️';
+    content: "❄️";
     display: block;
   }
 
   li::after {
-    content: '❄️';
+    content: "❄️";
     display: block;
   }
 }
